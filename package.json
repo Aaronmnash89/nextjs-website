@@ -1,7 +1,7 @@
 {
   "name": "nextjs-website",
   "version": "0.1.0",
-  "homepage": "https://aaronmnash89.github.io/", 
+  "homepage": "https://aaronmnash.github.io/", 
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
