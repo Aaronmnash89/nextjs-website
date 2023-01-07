@@ -2,29 +2,29 @@
 module.exports = {
   darkMode: "class",
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
     //<=== This Line here
-    './features/**/*.{js,ts,jsx,tsx}',
+    "./features/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     variants: {
-      width: ["responsive", "hover", "focus"]
-  },
+      width: ["responsive", "hover", "focus"],
+    },
     extend: {
       fontFamily: {
-        burtons: 'burtson',
+        burtons: "burtons",
       },
       colors: {
-        'background-dark': '#121212',
-        menubar: '#181818',
-        card: '#212121',
-        'secondary-text': '#B3B3B3',
-        'primary-text': '#FFFFFF',
-        'gray-dark': '#273444',
-        gray: '#8492a6',
-        'gray-light': '#d3dce6',
-        accent: '#FE214B',
+        "background-dark": "#121212",
+        menubar: "#181818",
+        card: "#212121",
+        "secondary-text": "#B3B3B3",
+        "primary-text": "#FFFFFF",
+        "gray-dark": "#273444",
+        gray: "#8492a6",
+        "gray-light": "#d3dce6",
+        accent: "#FE214B",
       },
     },
   },

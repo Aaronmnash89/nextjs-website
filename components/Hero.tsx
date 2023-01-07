@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Hero = ({heading, message}) => {
     return (
@@ -8,7 +9,7 @@ const Hero = ({heading, message}) => {
             <div className="p-5 text-white z-[2] mt-[-10rem]">
                 <h2 className="text-5xl font-bold">{heading}</h2>
                 <p className="py-5 text-xl">{message}</p>
-                <button className="px-8 py-2 border">Book</button>
+                <Link href="https://drive.google.com/file/d/1ILB2596Uzci_WkYKDC3RECvPJKXpc18C/view?usp=sharing" target="_blank" ><button className="px-8 py-2 border">Resume</button></Link>
             </div>
         </div>
     )
